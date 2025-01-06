@@ -1,5 +1,5 @@
 ![banner-image](src/images/banner-1.png)
-## Train and deploy custom YOLOv5 Object Detection models on Amazon SageMaker.
+## Train and deploy custom YOLOv11 Object Detection models on Amazon SageMaker.
 
 Object detection allows us to identify and locate objects in images or videos. You may want to detect your company brand in pictures, find objects in an shelf, count the number of people in a shop and many other detection use cases which need to be fullfilled everyday. **You only look once (YOLO)** is a state-of-the-art, real-time object detection system [presented in 2015](https://arxiv.org/abs/1506.02640). Nowadays YOLO has become a very popular algorithm to use when focusing on object detection.
 
@@ -45,5 +45,10 @@ DEPENDENCIES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY, EVEN
 IF AMAZON HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS
 AND DISCLAIMERS APPLY EXCEPT TO THE EXTENT PROHIBITED BY APPLICABLE LAW.
 
-{YOLOv5 (https://github.com/ultralytics/yolov5) - GNU General Public License v3.0 or later}
+{YOLOv11 ([https://github.com/ultralytics/yolov5](https://github.com/ultralytics/ultralytics)) - 
+Ultralytics offers two licensing options to accommodate diverse use cases:
+AGPL-3.0 License: This OSI-approved open-source license is ideal for students and enthusiasts, promoting open collaboration and knowledge sharing. See the LICENSE file for more details.
+    Enterprise License: Designed for commercial use, this license permits seamless integration of Ultralytics software and AI models into commercial goods and services, bypassing the open-source requirements of AGPL-3.0. 
+    If your scenario involves embedding our solutions into a commercial offering, reach out through Ultralytics Licensing.
+}
 
