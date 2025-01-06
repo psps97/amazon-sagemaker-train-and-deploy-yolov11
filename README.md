@@ -5,7 +5,7 @@ Object detection allows us to identify and locate objects in images or videos. Y
 
 **[Amazon SageMaker](https://aws.amazon.com/sagemaker/)** is a fully managed service to build, train, and deploy machine learning (ML) models for any use case with fully managed infrastructure, tools, and workflows.
 
-In this workshop you will learn how to use different Amazon Sagemaker features to train and deploy custom [YOLOv5 models](https://github.com/ultralytics/yolov5).
+In this workshop you will learn how to use different Amazon Sagemaker features to train and deploy custom [YOLOv11 models](https://github.com/ultralytics/ultralytics).
 
 Here are the different sections you can find:
 
@@ -45,7 +45,7 @@ DEPENDENCIES, HOWEVER CAUSED AND REGARDLESS OF THE THEORY OF LIABILITY, EVEN
 IF AMAZON HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THESE LIMITATIONS
 AND DISCLAIMERS APPLY EXCEPT TO THE EXTENT PROHIBITED BY APPLICABLE LAW.
 
-{YOLOv11 ([https://github.com/ultralytics/yolov5](https://github.com/ultralytics/ultralytics)) - 
+{YOLOv11 ([https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)) - 
 Ultralytics offers two licensing options to accommodate diverse use cases:
 AGPL-3.0 License: This OSI-approved open-source license is ideal for students and enthusiasts, promoting open collaboration and knowledge sharing. See the LICENSE file for more details.
     Enterprise License: Designed for commercial use, this license permits seamless integration of Ultralytics software and AI models into commercial goods and services, bypassing the open-source requirements of AGPL-3.0. 
