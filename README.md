@@ -1,4 +1,4 @@
-![banner-image](src/images/banner-1.png)
+
 ## Train and deploy custom YOLOv11 Object Detection models on Amazon SageMaker.
 
 Object detection allows us to identify and locate objects in images or videos. You may want to detect your company brand in pictures, find objects in an shelf, count the number of people in a shop and many other detection use cases which need to be fullfilled everyday. **You only look once (YOLO)** is a state-of-the-art, real-time object detection system [presented in 2015](https://arxiv.org/abs/1506.02640). Nowadays YOLO has become a very popular algorithm to use when focusing on object detection.
