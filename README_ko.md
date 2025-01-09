@@ -111,11 +111,7 @@ Let's get started.
 
 ![Git clone](./src/images/6_2.png)
 
-3. 이제 오른쪽 창에 폴더ㄱ가 표시됩니다
-
-![Cloned](./src/images/6_3.png)
-
-4. 다운로드한 폴더에서 ipynb 노트북을 클릭하여 엽니다
+3. 다운로드한 폴더에서 ipynb 노트북을 클릭하여 엽니다
 
 ![Open Notebook](./src/images/6_4.png)
 
@@ -152,11 +148,11 @@ Let's get started.
 
 1. 상단의 서비스 로케이터를 통해 Sagemaker 콘솔로 이동한 후 "Ground Truth" -> "Labeling Jobs"를 선택합니다.
 
-![Labelling Jobs](.src/images/7_2.png)
+![Labelling Jobs1](/src/images/7_2.png)
 
 2. 이제 "진행 중" 상태의 라벨링 작업이 표시됩니다. 작업 이름을 클릭합니다.
 
-![Labelling Jobs](.src/images/7_3.png)
+![Labelling Jobs2](/src/images/7_3.png)
 
 3. 작업 요약 라벨링 아래에서 더 많은 세부 사항을 확인할 수 있을 것입니다.
 
