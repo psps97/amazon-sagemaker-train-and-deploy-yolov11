@@ -106,6 +106,7 @@ Let's get started.
 2. 터미널 유형에서 
 
 `git clone https://github.com/aws-samples/sagemaker-ground-truth-label-training-data.git`
+
 `git clone https://github.com/psps97/amazon-sagemaker-train-and-deploy-yolov11.git`
 
 ![Git clone](./src/images/6_2.png)
