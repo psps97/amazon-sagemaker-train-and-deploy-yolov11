@@ -1,9 +1,7 @@
 # 대규모 머신 러닝을 위한 학습 데이터를 쉽게 라벨링하세요 
 
 ### Summary 
-Brand protection is one of the top priority for any enterprise. It not only helps to stop counterfeit sales but also prevent brand image. Using AI and machine learning we can help companies to protect their brand from different sources including social media. However to build a machine learning model for brand protection use case you need a large, high-quality, labeled dataset. Amazon SageMaker Ground Truth will help you build high-quality training datasets for your machine learning models. With Ground Truth, you can use labelers from either Amazon Mechanical Turk, a vendor company that you choose, or an internal, private workforce along with machine learning to enable you to create a labeled dataset. You can use the labeled dataset output from Ground Truth to train machine learning model on Amazon SageMaker or using our AI services such as Amazon Rekognition for computer vision use cases .
-
-In this builder session you will explore how to use Amazon Sagemaker Ground Truth to out-source the image labelling processes to obtain high-quality labels for building a company brand/logo detection machine learning model in a cost effective manner. 
+Amazon SageMaker Ground Truth는 머신 러닝 모델을 위한 고품질 교육 데이터셋을 구축하는 데 도움이 됩니다. Ground Truth를 사용하면 원하는 벤더 회사인 Amazon Mechanical Turk의 라벨러나 머신 러닝과 함께 내부 민간 인력을 사용하여 라벨이 부착된 데이터셋을 만들 수 있습니다. Ground Truth의 라벨이 부착된 데이터셋 출력을 사용하여 Amazon SageMaker에서 머신 러닝 모델을 학습시키거나 Amazon Rekognition과 같은 AI 서비스를 사용하여 컴퓨터 비전 사용 사례를 분석할 수 있습니다. .
 
 ### Workshop Details
 1. Sagemaker Ground Truth private workforce을 양성하세요.
@@ -17,12 +15,12 @@ In this builder session you will explore how to use Amazon Sagemaker Ground Trut
 ### Architecture
 ![Architecture](./src/images/10_1.png)
 
-1. Using the Labeling workforces page of the Amazon SageMaker Ground Truth, create Private workforce labelers.
-2. Upload unlabeled logo Images dataset to S3 Bucket.
-3. From Sagemaker Studio notebook, create labeling job using private workforce created in step1.
-4. Open labeling portal through sign in URL and start labeling process with Assistive labeling.
-5. Labeled output json data is stored in S3 bucket.
-6. Ground Truth will use the output data to train a model for auto-labeling. It will attempt to label the rest of the unlabeled images using the model it created. The auto-labeled images with high confidence will be considered "done" (labeled) and stored on S3. Any images with low degree of confidence will be dispatched to the private workforce for another round of labeling. Labeled data is used to continually train the model periodically.
+1. Amazon SageMaker Ground Truth의 라벨링 작업자 페이지를 사용하여 사설 인력 라벨러를 생성합니다.
+2. 라벨이 없는 로고 이미지 데이터셋을 S3 버킷에 업로드하세요.
+3. Sagemaker Studio 노트북에서 1단계에서 생성된 개인 인력을 사용하여 라벨링 작업을 만듭니다.
+4. URL에서 서명을 통해 라벨링 포털을 열고 보조 라벨링으로 라벨링 프로세스를 시작합니다.
+5. 라벨이 붙은 출력 json 데이터는 S3 버킷에 저장됩니다.
+6. 그라운드 트루스는 출력 데이터를 사용하여 자동 라벨링 모델을 학습시킵니다. 생성한 모델을 사용하여 라벨이 없는 나머지 이미지에 라벨을 붙이려고 합니다. 신뢰도가 높은 자동 라벨링된 이미지는 "완료"(라벨)된 것으로 간주되어 S3에 저장됩니다. 신뢰도가 낮은 이미지는 민간 인력에게 파견되어 또 다른 라벨링 라운드를 진행합니다. 라벨이 지정된 데이터는 모델을 주기적으로 지속적으로 학습시키는 데 사용됩니다.
 
 ## Step 1 : Create Sagemaker Ground Truth Workforce
 
@@ -134,11 +132,11 @@ Let's get started.
 
 1. 상단의 서비스 로케이터를 통해 Sagemaker 콘솔로 이동한 후 "Ground Truth" -> "Labeling Jobs"를 선택합니다. 
 
-![Labelling Jobs](./src/images/7_2.png)
+![Labelling Jobs1](/src/images/7_2.png)
 
 2. 이제 "진행 중" 상태의 라벨링 작업이 표시됩니다. 작업 이름을 클릭합니다.
 
-![Labelling Jobs](./src/images/7_3.png)
+![Labelling Jobs2](/src/images/7_3.png)
 
 ## 5단계: 노트북 실행.
 
