@@ -16,7 +16,7 @@ Amazon SageMaker Ground Truth는 머신 러닝 모델을 위한 고품질 교육
 ![Architecture](./src/images/10_1.png)
 
 1. Amazon SageMaker Ground Truth의 라벨링 작업자 페이지를 사용하여 사설 인력 라벨러를 생성합니다.
-2. 라벨이 없는 로고 이미지 데이터셋을 S3 버킷에 업로드하세요.
+2. 라벨이 없는 이미지 데이터셋을 S3 버킷에 업로드하세요.
 3. Sagemaker Studio 노트북에서 1단계에서 생성된 개인 인력을 사용하여 라벨링 작업을 만듭니다.
 4. URL에서 서명을 통해 라벨링 포털을 열고 보조 라벨링으로 라벨링 프로세스를 시작합니다.
 5. 라벨이 붙은 출력 json 데이터는 S3 버킷에 저장됩니다.
