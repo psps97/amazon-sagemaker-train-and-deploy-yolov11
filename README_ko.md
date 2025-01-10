@@ -131,6 +131,18 @@ Let's get started.
 
 ![Labelling Jobs1](/src/images/7_2.png)
 
+![Labelling Jobs1-1](/src/images/l1.png)
+
+![Labelling Jobs1-2](/src/images/l2.png)
+
+![Labelling Jobs1-3](/src/images/l3.png)
+
+![Labelling Jobs1-4](/src/images/l4.png)
+
+![Labelling Jobs1-5](/src/images/l5.png)
+
+![Labelling Jobs1-6](/src/images/l6.png)
+
 2. 이제 "진행 중" 상태의 라벨링 작업이 표시됩니다. 작업 이름을 클릭합니다.
 
 ![Labelling Jobs2](/src/images/7_3.png)
